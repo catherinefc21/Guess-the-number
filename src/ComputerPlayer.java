@@ -1,25 +1,32 @@
-import java.util.ArrayList;
 import java.util.Random;
 
-public class ComputerPlayer extends Player{
+public class ComputerPlayer extends Player {
+    private int minRange = 1;
+    private int maxRange = 100;
+    private final Random random = new Random();
+
+    // Constructor (Asignar el nombre predeterminado)
+    public ComputerPlayer() {
+        this.name = "Computer Player";
+    }
+
     @Override
     public int makeGuess() {
-        System.out.println("Ingresa un número: ");
-        Random random = new Random();
-        int guess = random.nextInt(100)+1;
+        int guess;
+        do {
+            guess = minRange + random.nextInt(maxRange - minRange + 1);
+        } while (guesses.contains(guess));
+
         System.out.println(guess);
         guesses.add(guess);
         return guess;
     }
-
-    @Override
-    public String getName() {
-        name = "Computer Player";
-        return name;
-    }
-
-    @Override
-    public ArrayList<Integer> getGuesses(){
-        return guesses;
+    // Método para ajustar el rango de números basado en la última suposición del HumanPlayer
+    public void updateRangeBasedOnHumanGuess(int humanGuess, boolean isHumanGuessHigh) {
+        if (isHumanGuessHigh) {
+            maxRange = Math.min(maxRange, humanGuess - 1);
+        } else {
+            minRange = Math.max(minRange, humanGuess + 1);
+        }
     }
 }
