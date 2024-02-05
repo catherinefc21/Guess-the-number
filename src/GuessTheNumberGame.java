@@ -1,9 +1,9 @@
 import java.util.Random;
 
 public class GuessTheNumberGame {
-    private final int targetNumber;
-    private final ComputerPlayer computerPlayer;
-    private final HumanPlayer humanPlayer;
+  int targetNumber;
+     ComputerPlayer computerPlayer;
+     HumanPlayer humanPlayer;
 
     // Constructor
     public GuessTheNumberGame() {
@@ -13,7 +13,7 @@ public class GuessTheNumberGame {
         this.computerPlayer = new ComputerPlayer();
     }
 
-    private Boolean checkGuess(Player player) {
+    Boolean checkGuess(Player player) {
         // Pedir número al jugador
         int numberGuessed = player.makeGuess();
         // Verificar suposición

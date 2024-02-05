@@ -1,8 +1,8 @@
 import java.util.Random;
 
 public class ComputerPlayer extends Player {
-    private int minRange = 1;
-    private int maxRange = 100;
+   int minRange = 1;
+   int maxRange = 100;
     private final Random random = new Random();
 
     // Constructor (Asignar el nombre predeterminado)
