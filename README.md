@@ -26,8 +26,8 @@ Deben tener en cuenta la tentativa anterior, si fue "muy alta" o "muy baja".
 
 1. Clona el repositorio con: git clone 
 2. Abre la terminal y navega al directorio del juego. 
-3. Compila el código ejecutando el comando javac GuessTheNumberGame.java. 
-4. Ejecuta el juego con java GuessTheNumberGame.
+3. Compila el código ejecutando el comando `javac GuessTheNumberGame.java.` 
+4. Ejecuta el juego con `java GuessTheNumberGame.`
 
 ### 4. Diagrama de Clases
 
