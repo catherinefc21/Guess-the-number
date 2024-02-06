@@ -2,17 +2,16 @@
 
 ## Índice
 
-- [1. Preámbulo](#1-preámbulo)
-- [2. Resumen del Proyecto](#2-resumen-del-proyecto)
-- [3. Instrucciones](#3-objetivos-de-aprendizaje)
-- [4. Diagrama de Clases](#4-consideraciones-generales)
+- [1. Resumen del Proyecto](#2-resumen-del-proyecto)
+- [2. Instrucciones](#3-objetivos-de-aprendizaje)
+- [3. Diagrama de Clases](#4-consideraciones-generales)
 
 ---
 
 
 ![GUESS THE NUMBER](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/guess-the-number.png?alt=media)
 
-## 2. Resumen del Proyecto
+## 1. Resumen del Proyecto
 
 Es un juego interactivo que se desarrolla en el terminal, donde la jugadora y el
 ordenador se turnan para intentar adivinar un número aleatorio entre 1 y 100.
@@ -20,7 +19,7 @@ Deben tener en cuenta la tentativa anterior, si fue "muy alta" o "muy baja".
 
 ![GUESS THE NUMBER DEMO](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/guess-the-number-demo.gif?alt=media)
 
-## 3. Instrucciones
+## 2. Instrucciones
 
  Para comenzar a jugar debes realizar los siguientes pasos 🎲:
 
@@ -29,7 +28,7 @@ Deben tener en cuenta la tentativa anterior, si fue "muy alta" o "muy baja".
 3. Compila el código ejecutando el comando `javac GuessTheNumberGame.java.` 
 4. Ejecuta el juego con `java GuessTheNumberGame.`
 
-### 4. Diagrama de Clases
+### 3. Diagrama de Clases
 
 ![Diagrama de Clases](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/class-diagram.png?alt=media)
 
