@@ -1,9 +1,9 @@
 import java.util.Random;
 
 public class GuessTheNumberGame {
-  int targetNumber;
-     ComputerPlayer computerPlayer;
-     HumanPlayer humanPlayer;
+    int targetNumber;
+    ComputerPlayer computerPlayer;
+    HumanPlayer humanPlayer;
 
     // Constructor
     public GuessTheNumberGame() {

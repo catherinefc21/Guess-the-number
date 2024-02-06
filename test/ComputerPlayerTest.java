@@ -12,7 +12,10 @@ class ComputerPlayerTest {
 
         // Verificar si el rango está dentro de lo esperado) con assertTrue
         assertTrue(guess >= 1 && guess <= 100);
+        // verificar que se agregue un numero por turno
+        assertEquals(1, computerPlayer.getGuesses().size());
     }
+
     @Test
     void updateRangeBasedOnHumanGuess() {
         ComputerPlayer computerPlayer = new ComputerPlayer();

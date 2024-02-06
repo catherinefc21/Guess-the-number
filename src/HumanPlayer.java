@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.InputMismatchException;
 
 public class HumanPlayer extends Player {
-    private static final Scanner scanner = new Scanner(System.in);
+    private final Scanner scanner = new Scanner(System.in);
 
     // Constructor
     public HumanPlayer() {
