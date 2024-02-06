@@ -24,7 +24,7 @@ Deben tener en cuenta la tentativa anterior, si fue "muy alta" o "muy baja".
 
  Para comenzar a jugar debes realizar los siguientes pasos 🎲:
 
-1. Clona el repositorio con: git clone [https://github.com/catherinefc21/Guess-the-number.git]
+1. Clona el repositorio con: git clone https://github.com/catherinefc21/Guess-the-number.git
 2. Abre la terminal y navega al directorio del juego. 
 3. Compila el código ejecutando el comando `javac GuessTheNumberGame.java.` 
 4. Ejecuta el juego con `java GuessTheNumberGame.`
